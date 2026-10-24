@@ -1,0 +1,80 @@
+{
+  "rhineShip": {
+    "bondId": "rhineShip",
+    "name": "莱茵生命",
+    "identifier": 24,
+    "isCore": true,
+    "bondType": "SEASON",
+    "bondOrder": 24,
+    "powerIdList": [],
+    "iconId": "rhineShip",
+    "activeCount": 3,
+    "thresholds": [
+      3,
+      6,
+      9
+    ],
+    "maxCount": null,
+    "thresholdTemplate": "count_threshold_upward",
+    "countMode": "BOARD",
+    "countsHand": false,
+    "countsGoldenOnly": false,
+    "activeType": "BATTLE",
+    "isActiveInDeck": false,
+    "noStack": false,
+    "weight": 10,
+    "maxInactiveBondCount": -1,
+    "layerMilestones": [],
+    "desc": "在场3名不同【莱茵生命】干员时启动一台科研装置；在场6名时同时启动两台，9名时三台全部启动。达到6名时，除伊芙利特和治疗干员外的莱茵输出干员获得己方已部署装置中最高基础攻击力的15%，精锐25%，作为额外攻击力；多个装置不重复共享。3名时获得生态维持仪与能量谐振仪，9名时解锁只有一级的全场激光钻机。装置基础攻击力300，每层科研增加4点。生态维持仪与能量谐振仪参战成功获得2研究点，失败获得1点；第1次突破需要5点，第2次突破需要5点。每次突破后研究点清零，溢出不保留；科研层数不受影响，激光钻机不积累研究点或突破。",
+    "descRaw": "在场3名不同【莱茵生命】干员时启动一台科研装置；在场6名时同时启动两台，9名时三台全部启动。达到6名时，除伊芙利特和治疗干员外的莱茵输出干员获得己方已部署装置中最高基础攻击力的15%，精锐25%，作为额外攻击力；多个装置不重复共享。3名时获得生态维持仪与能量谐振仪，9名时解锁只有一级的全场激光钻机。装置基础攻击力300，每层科研增加4点。生态维持仪与能量谐振仪参战成功获得2研究点，失败获得1点；第1次突破需要5点，第2次突破需要5点。每次突破后研究点清零，溢出不保留；科研层数不受影响，激光钻机不积累研究点或突破。",
+    "effectId": "bondeffect_rhine",
+    "effectName": "莱茵生命",
+    "effectDesc": "在场3名不同【莱茵生命】干员时启动一台科研装置；在场6名时同时启动两台，9名时三台全部启动。达到6名时，除伊芙利特和治疗干员外的莱茵输出干员获得己方已部署装置中最高基础攻击力的15%，精锐25%，作为额外攻击力；多个装置不重复共享。3名时获得生态维持仪与能量谐振仪，9名时解锁只有一级的全场激光钻机。装置基础攻击力300，每层科研增加4点。生态维持仪与能量谐振仪参战成功获得2研究点，失败获得1点；第1次突破需要5点，第2次突破需要5点。每次突破后研究点清零，溢出不保留；科研层数不受影响，激光钻机不积累研究点或突破。",
+    "effectDescRaw": "在场3名不同【莱茵生命】干员时启动一台科研装置；在场6名时同时启动两台，9名时三台全部启动。达到6名时，除伊芙利特和治疗干员外的莱茵输出干员获得己方已部署装置中最高基础攻击力的15%，精锐25%，作为额外攻击力；多个装置不重复共享。3名时获得生态维持仪与能量谐振仪，9名时解锁只有一级的全场激光钻机。装置基础攻击力300，每层科研增加4点。生态维持仪与能量谐振仪参战成功获得2研究点，失败获得1点；第1次突破需要5点，第2次突破需要5点。每次突破后研究点清零，溢出不保留；科研层数不受影响，激光钻机不积累研究点或突破。",
+    "effectDescParams": [],
+    "bb": {
+      "atk_per_stack": 4,
+      "sharing_count": 6,
+      "sharing_atk": 0.15,
+      "sharing_golden_atk": 0.25
+    },
+    "bbStr": {
+      "key": "rhine_research"
+    },
+    "buffs": [],
+    "baseParams": {},
+    "perStackParams": {},
+    "members": [
+      "chess_char_2_02_a",
+      "chess_char_4_21_a",
+      "chess_char_5_11_a",
+      "chess_char_5_16_a",
+      "chess_char_6_11_a",
+      "chess_char_6_16_a",
+      "chess_rhine_mayer_a",
+      "chess_rhine_ifrit_a",
+      "chess_rhine_astgenne_a",
+      "chess_rhine_dorothy_a",
+      "chess_rhine_aphris_a"
+    ],
+    "visibleMembers": [
+      "chess_char_2_02_a",
+      "chess_char_4_21_a",
+      "chess_char_5_11_a",
+      "chess_char_6_11_a",
+      "chess_char_6_16_a",
+      "chess_rhine_mayer_a",
+      "chess_rhine_ifrit_a",
+      "chess_rhine_astgenne_a",
+      "chess_rhine_dorothy_a",
+      "chess_rhine_aphris_a"
+    ],
+    "spec": {
+      "researchDevices": [
+        "token_rhine_medical",
+        "token_rhine_energy",
+        "token_rhine_laser"
+      ]
+    }
+  }
+}

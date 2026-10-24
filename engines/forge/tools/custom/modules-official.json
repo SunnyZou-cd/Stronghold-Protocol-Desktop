@@ -1,0 +1,2120 @@
+{
+  "source": "Kengxxiao/ArknightsGameData zh_CN uniequip_table and battle_equip_table fetched 2026-10-05",
+  "uniequip": {
+    "charEquip": {
+      "char_4217_makoto": [
+        "uniequip_001_makoto",
+        "uniequip_002_makoto"
+      ],
+      "char_4182_oblvns": [
+        "uniequip_001_oblvns",
+        "uniequip_002_oblvns"
+      ],
+      "char_1015_aglna2": [],
+      "char_4138_narant": [
+        "uniequip_001_narant",
+        "uniequip_002_narant",
+        "uniequip_003_narant"
+      ]
+    },
+    "equipDict": {
+      "uniequip_001_makoto": {
+        "uniEquipId": "uniequip_001_makoto",
+        "uniEquipName": "结城理证章",
+        "uniEquipIcon": "uniequip_001_makoto",
+        "uniEquipDesc": "干员结城理擅长于战场上同敌人反复周旋\n根据外勤部门决议\n在外勤任务中划分为特种干员，行使傀儡师职责\n特别颁发此证章\n以兹证明",
+        "typeIcon": "original",
+        "typeName1": "ORIGINAL",
+        "typeName2": null,
+        "equipShiningColor": "grey",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_0",
+        "charId": "char_4217_makoto",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 0,
+        "missionList": [],
+        "unlockFavors": null,
+        "itemCost": null,
+        "type": "INITIAL",
+        "uniEquipGetTime": 1788476400,
+        "uniEquipShowEnd": -62135625600,
+        "charEquipOrder": 0,
+        "hasUnlockMission": false,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#4c639d"
+      },
+      "uniequip_002_makoto": {
+        "uniEquipId": "uniequip_002_makoto",
+        "uniEquipName": "彼此的声音",
+        "uniEquipIcon": "uniequip_002_makoto",
+        "uniEquipDesc": "一个下午，太阳炽热地挂在天上，吉阿达指了指面前的仓库，裘里奥和结城理一起使劲拉起了卷帘门。\n仓库里倒是阴凉，吉阿达走到某排储物架前，说：“这些是她的。”吉阿达让裘里奥把东西在旁边的桌子上都检视一遍，理站在裘里奥身旁，帮他把确认留下的物品放进纸箱。\n“这是……”裘里奥打开一个储物盒，感叹道，“好老的歌啊。”\n他问吉阿达：“这些都是姨妈收藏的磁带吗，你研究遗物的时候是不是听过？”吉阿达摇摇头：“没有听完全部……也不全都是收藏。”\n吉阿达拣出几盘样子朴素的，说：“这些应该是她自己录的。我和结城提过，在遗物里听到了一首歌，就是在这里。”理有点疑惑，裘里奥则好奇地问：“哪一盘？我也想听。”\n吉阿达犹豫了一下，拿出一盘磁带放进旁边的收音机，插上电，按下了播放键。\n家庭录制的磁带响着沙沙声，没有伴奏，略微沙哑的女声唱着柔情又依恋的歌，裘里奥却渐渐想要落泪。下午的阳光照进了仓库里，耀眼的白光落在地上像水波。\n“……糖与铳与信心，我将拉特兰一饮而尽。”他低声跟着唱完了最后几句。\n音乐结束了，最先说话的竟然是理：“我想起来了，吉阿达小姐当时说的话……所以，你对葬礼的坚持，其实是与这首歌有关吗？”\n吉阿达说：“……嗯。这盘磁带，应该就是不久前录的……不过，只是听到一首歌的心情，我把它当成逝者的意愿，还是太自以为是了。”\n理摇了摇头：“音乐确实能告诉我们很多事。”\n“……这样说来，理似乎经常在听音乐呢。”裘里奥低头抹了一下眼睛，又恢复了平时的笑容。\n“还好……”话题突然转移到自己身上，理猝不及防，吉阿达却悄悄松了一口气。裘里奥又问：“理平时都听什么歌呢？”\n“……这些，也可以给大家听。”理启动随身携带的播放器，给两人看了看。\n“其实，听同一首歌是不是就有点像共感？”裘里奥摸摸自己的下巴，突然说。\n“除了你这里谁也不知道共感是什么感觉吧……”吉阿达忍不住说。\n“……我好像能明白。”理却认真地回答了。\n吉阿达突然想起了一件事。在那一天，那一个傍晚，她曾体会过的。在那最后，她确实听到了音乐声，如星光、如晚霞一般的大提琴声。\n“……那也许，我也感受过。”吉阿达说。\n“是吧，音乐也是能听见的心情呢。”裘里奥温柔地笑着。\n“能体会他人心情的办法，一直都是存在的。”理看向裘里奥，认真地说，“有很多东西都可以把我们连系在一起。”\n“那样的时刻只要存在过，就不会消逝了。”他说。",
+        "typeIcon": "pum-y",
+        "typeName1": "PUM",
+        "typeName2": "Y",
+        "equipShiningColor": "yellow",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_2",
+        "charId": "char_4217_makoto",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 60,
+        "missionList": [
+          "uniequip_002_makoto_1",
+          "uniequip_002_makoto_2"
+        ],
+        "unlockFavors": {
+          "1": 0,
+          "2": 2732,
+          "3": 10070
+        },
+        "itemCost": {
+          "1": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30145",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 80000,
+              "type": "GOLD"
+            }
+          ],
+          "2": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_1",
+              "count": 60,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30165",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 100000,
+              "type": "GOLD"
+            }
+          ],
+          "3": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 20,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30115",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 120000,
+              "type": "GOLD"
+            }
+          ]
+        },
+        "type": "ADVANCED",
+        "uniEquipGetTime": 1788476400,
+        "uniEquipShowEnd": -62135625600,
+        "charEquipOrder": 2,
+        "hasUnlockMission": true,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#4c639d"
+      },
+      "uniequip_001_oblvns": {
+        "uniEquipId": "uniequip_001_oblvns",
+        "uniEquipName": "丰川祥子证章",
+        "uniEquipIcon": "uniequip_001_oblvns",
+        "uniEquipDesc": "干员丰川祥子擅长与Ave Mujica的成员协作配合，在较大范围内阻击敌人\n根据外勤部门决议\n在外勤任务中划分为近卫干员，行使领主职责\n特别颁发此证章\n以兹证明",
+        "typeIcon": "original",
+        "typeName1": "ORIGINAL",
+        "typeName2": null,
+        "equipShiningColor": "grey",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_0",
+        "charId": "char_4182_oblvns",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 0,
+        "missionList": [],
+        "unlockFavors": null,
+        "itemCost": null,
+        "type": "INITIAL",
+        "uniEquipGetTime": 1756958400,
+        "uniEquipShowEnd": 1759964400,
+        "charEquipOrder": 0,
+        "hasUnlockMission": false,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#7799CC"
+      },
+      "uniequip_002_oblvns": {
+        "uniEquipId": "uniequip_002_oblvns",
+        "uniEquipName": "无言的约定",
+        "uniEquipIcon": "uniequip_002_oblvns",
+        "uniEquipDesc": "在罗德岛本舰上，祥子最喜欢的地方无疑是音乐排练室。\n倒不是喜欢里面琳琅满目的乐器，和热情的音乐爱好者们。\n祥子喜欢避开大家使用排练室的时间，一人在此弹琴，她很享受这片刻。\n对祥子来说，弹钢琴既是练习、是目标、是工作，也是放松、是寄托。\n她把爱丽丝送给自己的人偶也放在这里，每每遇到令她心烦意乱的事，祥子总会来到排练室把情绪宣泄进琴声里。在这短暂的时间里，祥子才能感到些许慰藉。\n这天，她在琴边发现了这样一张字条——\n“祥子小姐，你的琴声真的很美。谢谢你。”\n字迹干净清爽，看上去像是来自某个单纯友善的年轻人。\n在那之后，祥子经常能发现，钢琴前有字条留给自己。\n这是一位害羞的听众。\n这个听众不愿意透露自己是谁，她（或者是他？）刻意不出现在祥子的面前，因为她也不想破坏祥子的这宝贵的时光。\n她想用这样的形式把她想要告诉祥子的话说出来。\n她称赞祥子的一举一动，称赞祥子的人偶，称赞祥子的成熟。\n她称赞祥子的琴声里，隐藏在纠结、迷茫之下的坚强。\n她感谢祥子的琴声，因为这琴声在她脆弱时支持了她。\n她期待自己能跟祥子一起演奏。\n她也会鼓励祥子，她能听到祥子琴声中的寂寞，即使她不知道祥子的难处是什么，但是她也愿意为她加油。\n祥子想起了故乡的一位旧伙伴，真巧，这位听众也是个不知道该如何开口的笨拙的人吧。\n其实只要稍稍调查，找找训练室的使用记录，变一变练习的时间来打乱对方的习惯，祥子应该能很快找出这位听众。\n但是她并没有这么做。\n祥子决定，等她离开前，她想要和这位听众见见面，并邀请她一起演奏一曲。\n她是个什么样的人呢？心思细腻，温和体贴?不善言辞，胆小害怕？\n是跟睦一样呢，还是会跟初华一样呢？\n她应该是一位小提琴手，祥子毫无依据，但是这样觉得。",
+        "typeIcon": "lor-y",
+        "typeName1": "LOR",
+        "typeName2": "Y",
+        "equipShiningColor": "red",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_2",
+        "charId": "char_4182_oblvns",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 60,
+        "missionList": [
+          "uniequip_002_oblvns_1",
+          "uniequip_002_oblvns_2"
+        ],
+        "unlockFavors": {
+          "1": 0,
+          "2": 2732,
+          "3": 10070
+        },
+        "itemCost": {
+          "1": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30115",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 80000,
+              "type": "GOLD"
+            }
+          ],
+          "2": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_1",
+              "count": 60,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30135",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 100000,
+              "type": "GOLD"
+            }
+          ],
+          "3": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 20,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30155",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 120000,
+              "type": "GOLD"
+            }
+          ]
+        },
+        "type": "ADVANCED",
+        "uniEquipGetTime": 1756958400,
+        "uniEquipShowEnd": 1759964400,
+        "charEquipOrder": 2,
+        "hasUnlockMission": true,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#7799CC"
+      },
+      "uniequip_001_narant": {
+        "uniEquipId": "uniequip_001_narant",
+        "uniEquipName": "娜仁图亚证章",
+        "uniEquipIcon": "uniequip_001_narant",
+        "uniEquipDesc": "干员娜仁图亚擅长操纵回旋投射物往复打击靠近的敌人\n根据外勤部门决议\n在外勤任务中划分为狙击干员，行使回环射手职责\n特别颁发此证章\n以兹证明",
+        "typeIcon": "original",
+        "typeName1": "ORIGINAL",
+        "typeName2": null,
+        "equipShiningColor": "grey",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_0",
+        "charId": "char_4138_narant",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 0,
+        "missionList": [],
+        "unlockFavors": null,
+        "itemCost": null,
+        "type": "INITIAL",
+        "uniEquipGetTime": 1759964400,
+        "uniEquipShowEnd": 1761951600,
+        "charEquipOrder": 0,
+        "hasUnlockMission": false,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#af1213"
+      },
+      "uniequip_002_narant": {
+        "uniEquipId": "uniequip_002_narant",
+        "uniEquipName": "“吹尽狂沙”",
+        "uniEquipIcon": "uniequip_002_narant",
+        "uniEquipDesc": "娜仁图亚从夜梦中惊醒，喉咙里仿佛含着一块热炭，耳朵里仍是梦中响起的金铁相击之声，令她难以忍受。\n她走出帐篷，荒漠顶上无月，风似远征的骑兵，狂奔向沙漠深处。\n“叮！铛！”那打铁一般的声音愈发响亮。娜仁图亚四处寻找声音的源头，却意外发现自己腰间的黑色弯刀正颤抖不止。\n她握住刀柄，本以为这样便能止住它的躁动，没想到反而令其势更盛，将她震得手臂发麻、头晕目眩。\n“停下！”她怒吼着，将那把刀抓得更紧。\n黑色的弯刀拽着她，使她踉踉跄跄地跑进了夜色里。\n她看到一柄如同山岭的巨锤，重重砸落在火红的铁砧之上，一声声战鼓，一阵阵金铁的嘶鸣，火星飞溅，巨锤不屑于铸造凡铁，它竟然将那坚不可摧的铁砧砸成了一把刀！\n战鼓声越来越清晰，她看到有人接过了那把刀，行走在远征队伍的最前面，用它劈开坚硬的骨头，用它斩落歪斜的旗帜，直到那人死去，刀落进黄沙里。娜仁图亚若有所悟，自己此刻正站在那片黄沙之上！\n“……不，”她说，“那不是我！”\n她不再试图遏止弯刀的躁动，狠狠地扔出弯刀，似乎要用它击碎那片风沙中的幻景。\n“无论你是什么来历，我都不在乎！我有我自己的路，如果你不愿意跟我走，那随便你！”\n娜仁图亚不确定自己有没有喊出这句话，因为下一刻，她狠狠摔进了荒漠里。\n……\n娜仁图亚醒来时，一旁的酒友正关切又畏惧地给她摇着扇子。\n“我喝多了？”\n正在往酒里掺水的摊主赧然一笑。\n“我的刀呢？！”娜仁图亚手往腰间一拍，冷汗立刻冒了出来。\n酒友们将她引到一块巨岩前。\n“娜仁图亚，你究竟是怎么做到的？”\n娜仁图亚揉了揉眼睛，那把深深插进巨岩的黑色弯刀的确是自己的。她试着往外拔，但刀与石头都纹丝未动。\n“昨晚天上打了几个雷，你醉醺醺地从帐篷里出来，对着阴云破口大骂，然后就拔出刀往这大石头上一砸！”一名酒友龇着牙说，“太吓人了，等会儿我就把欠你的酒钱都还你……”\n“的确吓人，我还记得你最后大声喊了一句——”\n“我喊了什么？”娜仁图亚此时已经回忆起了一些片段，她甚至有些佩服自己能想出那样霸气的宣言，她并不介意再听别人讲一遍。\n“你喊的是——‘如果你再不老实，我就把你卖了，换一把纯金的！’”\n“什么？等等，难道不是……”\n“唔，就是这句，我也听到了。的确是娜仁图亚会说的话。”\n“……”",
+        "typeIcon": "lps-x",
+        "typeName1": "LPS",
+        "typeName2": "X",
+        "equipShiningColor": "red",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_2",
+        "charId": "char_4138_narant",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 60,
+        "missionList": [
+          "uniequip_002_narant_1",
+          "uniequip_002_narant_2"
+        ],
+        "unlockFavors": {
+          "1": 0,
+          "2": 2732,
+          "3": 10070
+        },
+        "itemCost": {
+          "1": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30165",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 80000,
+              "type": "GOLD"
+            }
+          ],
+          "2": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_1",
+              "count": 60,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30115",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 100000,
+              "type": "GOLD"
+            }
+          ],
+          "3": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 20,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30135",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 120000,
+              "type": "GOLD"
+            }
+          ]
+        },
+        "type": "ADVANCED",
+        "uniEquipGetTime": 1759964400,
+        "uniEquipShowEnd": 1761951600,
+        "charEquipOrder": 1,
+        "hasUnlockMission": true,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#af1213"
+      },
+      "uniequip_003_narant": {
+        "uniEquipId": "uniequip_003_narant",
+        "uniEquipName": "“致我们的老大”",
+        "uniEquipIcon": "uniequip_003_narant",
+        "uniEquipDesc": "“她不是好人！”\n两个逃跑的女孩在荒野迷路，天色阴暗，难辨方向。\n“那个红头发疯子把我们从沙盗手里抢出来，就是为了再卖给其他沙盗！”\n阿雅吉和阿雅妮并非亲姐妹，而是被沙盗从不同地方抓来的奴隶，名字也是自己起的。\n“可她砍断了我们的脚镣，还给饭吃。”\n“演的！她老念叨什么部族的规矩，就是想让我们放松警惕。”\n“阿雅吉，我跑不动了！我想回去。跟着她起码不用挨饿。”\n“就算当沙盗，你也得认个有出息的老大吧？瞧她那样子，连个手下都没有，能有什么前途？”\n“可她说以前她有很多手下，只是那些人都不愿跟着她混了，她就决定再也不当老大了。”\n“那你怎么不想想那些人为什么不愿意跟着她混了？”\n她们只顾争吵，没注意到一群游荡的裂兽已悄然逼近了她们。\n“糟、糟了！阿雅吉，我不想死在这儿！”\n裂兽的族母绕着她们转圈，似在等待什么。其他裂兽朝远方咆哮起来。很快，一个红色的身影出现了。\n“我不是说了有裂兽出没，让你们别在我去买东西的时候乱跑吗？”\n“我还以为你在吓唬人，让我们不敢逃跑！”\n“逃跑？你们想走就走，我什么时候拦过？”\n娜仁图亚气喘吁吁地将皮鞭和匕首分给两人，随后上前，猎食者与猎物的游戏变成了两个族群间的对峙。\n“你要带着你的族群活下去，我也一样。她们是我的人。我们会反抗，我会杀死你族群中的裂兽，三头，两头，我绝对能杀掉。如果你喜欢两败俱伤，咱们就这么干。”\n裂兽族母陷入沉默。\n“看来你觉得不划算？”娜仁图亚啐了一口，“那就滚！”\n被激怒的裂兽纷纷咆哮，娜仁图亚也扯嗓子仰天怒吼，回敬以自己的态度。\n直到所有裂兽收起獠牙，娜仁图亚才停下，她扔出一个刚买来的包裹，里面是兽群必需的盐。\n裂兽族母叼起盐包，带着族群退回荒原深处。\n“走吧，回家。”娜仁图亚嗓音发哑，“既然收了你们当手下，以后就得听我的话，不能乱跑了。”\n“你、你什么时候收我们当手下了？而且，你不是说再也不当老大了吗？”\n“没办法，我也不想当老大，但我总不能看着你们去死吧？你们要是不愿意，我可以把裂兽叫回来。”\n阿雅吉闭上了嘴。阿雅妮凑近说：“这个老大能吓走一群裂兽欸，将来肯定有出息。”\n阿雅吉叹了口气：“我们俩现在都欠她一条命，这可该怎么报答呀？总不能给她当一辈子手下吧？”\n“阿雅吉，这已经是她第二次救我们了，一辈子可能都不够的。”\n娜仁图亚头也没回地应道：“我不需要你们报答我，我也没那耐心给别人当一辈子老大！将来哪天咱们散伙，过上安稳日子了，只要你们还记得我就够了，最好逢年过节愿意给我寄点小礼物。”\n“放心吧老大！我们肯定会给你寄最好的礼物！”\n“……倒也不用那么急着想散伙后的事。”",
+        "typeIcon": "lps-y",
+        "typeName1": "LPS",
+        "typeName2": "Y",
+        "equipShiningColor": "grey",
+        "showEvolvePhase": "PHASE_2",
+        "unlockEvolvePhase": "PHASE_2",
+        "charId": "char_4138_narant",
+        "tmplId": null,
+        "showLevel": 1,
+        "unlockLevel": 60,
+        "missionList": [
+          "uniequip_003_narant_1",
+          "uniequip_003_narant_2"
+        ],
+        "unlockFavors": {
+          "1": 0,
+          "2": 2732,
+          "3": 10070
+        },
+        "itemCost": {
+          "1": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30115",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 80000,
+              "type": "GOLD"
+            }
+          ],
+          "2": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_1",
+              "count": 60,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30155",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 100000,
+              "type": "GOLD"
+            }
+          ],
+          "3": [
+            {
+              "id": "mod_unlock_token",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 20,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "30145",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "4001",
+              "count": 120000,
+              "type": "GOLD"
+            }
+          ]
+        },
+        "type": "ADVANCED",
+        "uniEquipGetTime": 1780268400,
+        "uniEquipShowEnd": 1783638000,
+        "charEquipOrder": 2,
+        "hasUnlockMission": true,
+        "isSpecialEquip": false,
+        "specialEquipDesc": null,
+        "specialEquipColor": null,
+        "charColor": "#af1213"
+      }
+    }
+  },
+  "battleEquip": {
+    "uniequip_002_makoto": {
+      "phases": [
+        {
+          "equipLevel": 1,
+          "parts": [
+            {
+              "resKey": null,
+              "target": "TRAIT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "duration",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp",
+                        "value": 0.2,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                    "prefabKey": "-1",
+                    "rangeId": null
+                  }
+                ]
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 200.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 18.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 18.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 2,
+          "parts": [
+            {
+              "resKey": null,
+              "target": "TRAIT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "duration",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp",
+                        "value": 0.2,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                    "prefabKey": "-1",
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": null,
+              "target": "TALENT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人9秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大，攻击力+88%，生命值+38%，作战能力随技能选择而改变",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "不羁之力",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk",
+                        "value": 0.88,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "base_attack_time",
+                        "value": 0.4,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sluggish",
+                        "value": 9.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp_t1",
+                        "value": 0.38,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "range_id",
+                        "value": 0.0,
+                        "valueStr": "x-1"
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  },
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人9秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大，攻击力+93%<@ba.talpu>（+5%）</>，生命值+38%，作战能力随技能选择而改变",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "不羁之力",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk",
+                        "value": 0.93,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "base_attack_time",
+                        "value": 0.4,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sluggish",
+                        "value": 9.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp_t1",
+                        "value": 0.38,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "range_id",
+                        "value": 0.0,
+                        "valueStr": "x-1"
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 257.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 27.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 27.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 3,
+          "parts": [
+            {
+              "resKey": null,
+              "target": "TRAIT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "duration",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp",
+                        "value": 0.2,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                    "prefabKey": "-1",
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": null,
+              "target": "TALENT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人10秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大，攻击力+95%，生命值+40%，作战能力随技能选择而改变",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "不羁之力",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk",
+                        "value": 0.95,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "base_attack_time",
+                        "value": 0.4,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sluggish",
+                        "value": 10.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp_t1",
+                        "value": 0.4,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "range_id",
+                        "value": 0.0,
+                        "valueStr": "x-1"
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  },
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "结城理切换为<替身>状态时<$ba.sluggish>停顿</>周围一定范围内敌人10秒；<替身>状态下结城理召唤人格面具作战，攻击间隔增大，攻击力+100%<@ba.talpu>（+5%）</>，生命值+40%，作战能力随技能选择而改变",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "不羁之力",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk",
+                        "value": 1.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "base_attack_time",
+                        "value": 0.4,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sluggish",
+                        "value": 10.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_hp_t1",
+                        "value": 0.4,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "range_id",
+                        "value": 0.0,
+                        "valueStr": "x-1"
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 304.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 34.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 34.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        }
+      ]
+    },
+    "uniequip_002_oblvns": {
+      "phases": [
+        {
+          "equipLevel": 1,
+          "parts": [
+            {
+              "resKey": "oblvns_equip_1_1_p1",
+              "target": "TRAIT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "attack_speed",
+                        "value": 12.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "atk_scale",
+                        "value": 0.8,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 180.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 38.0,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 5.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 2,
+          "parts": [
+            {
+              "resKey": "oblvns_equip_1_2_p1",
+              "target": "TRAIT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "attack_speed",
+                        "value": 12.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "atk_scale",
+                        "value": 0.8,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": null,
+              "target": "TALENT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "丰川祥子可以<$ba.permanentatk>持续攻击</>且攻击会演奏追踪敌人的音符，音符飘出攻击范围一段时间后消失。每存在一个音符，<$ba.mujica>Ave Mujica</>成员无视敌人4%的防御力和2%法术抗性（最多可叠加12层）；技能期间远程攻击不再降低攻击力",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "颂乐音符",
+                    "description": null,
+                    "rangeId": "3-12",
+                    "blackboard": [
+                      {
+                        "key": "def_penetrate_ratio",
+                        "value": 0.04,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "magic_resist_penetrate_ratio",
+                        "value": 0.02,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@angle",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "delay",
+                        "value": 1.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_cnt",
+                        "value": 12.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            },
+            {
+              "resKey": "oblvns_equip_1_2_p2",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "10",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 250.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 54.0,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 6.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 3,
+          "parts": [
+            {
+              "resKey": "oblvns_equip_1_3_p1",
+              "target": "TRAIT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "攻击范围内存在2名及以上敌人时攻击速度<@ba.vup>+12</>",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "attack_speed",
+                        "value": 12.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "atk_scale",
+                        "value": 0.8,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": null,
+              "target": "TALENT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "丰川祥子可以<$ba.permanentatk>持续攻击</>且攻击会演奏追踪敌人的音符，音符飘出攻击范围一段时间后消失。每存在一个音符，<$ba.mujica>Ave Mujica</>成员无视敌人5%的防御力和2.5%法术抗性（最多可叠加12层）；技能期间远程攻击不再降低攻击力",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "颂乐音符",
+                    "description": null,
+                    "rangeId": "3-12",
+                    "blackboard": [
+                      {
+                        "key": "def_penetrate_ratio",
+                        "value": 0.05,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "magic_resist_penetrate_ratio",
+                        "value": 0.025,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@angle",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "delay",
+                        "value": 1.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "max_cnt",
+                        "value": 12.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            },
+            {
+              "resKey": "oblvns_equip_1_2_p2",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "10",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 300.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 63.0,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 7.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        }
+      ]
+    },
+    "uniequip_002_narant": {
+      "phases": [
+        {
+          "equipLevel": 1,
+          "parts": [
+            {
+              "resKey": null,
+              "target": "DISPLAY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "攻击周围8格的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": "narant_equip_1_1_p1",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "10",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "atk",
+              "value": 25.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 25.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 2,
+          "parts": [
+            {
+              "resKey": null,
+              "target": "DISPLAY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "攻击周围8格的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": "narant_equip_1_2_p1",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "10",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            },
+            {
+              "resKey": "narant_equip_1_2_p2",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "在场时，每次攻击到敌人<$ba.steal>偷取</>其25点攻击力（最高275点）与20点防御力（最高220点），攻击到周围8格的敌人时偷取触发2次",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "“我见，我得”",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "attack@steal_atk",
+                        "value": 25.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_atk_max",
+                        "value": 275.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def_max",
+                        "value": 220.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  },
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "在场时，每次攻击到敌人<$ba.steal>偷取</>其27<@ba.talpu>（+2）</>点攻击力（最高297<@ba.talpu>（+22）</>点）与21<@ba.talpu>（+1）</>点防御力（最高231<@ba.talpu>（+11）</>点），攻击到周围8格的敌人时偷取触发2次",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "“我见，我得”",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "attack@steal_atk",
+                        "value": 27.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_atk_max",
+                        "value": 297.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def",
+                        "value": 21.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def_max",
+                        "value": 231.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "atk",
+              "value": 35.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 35.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 3,
+          "parts": [
+            {
+              "resKey": null,
+              "target": "DISPLAY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "攻击周围8格的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": "narant_equip_1_3_p1",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "10",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            },
+            {
+              "resKey": "narant_equip_1_3_p2",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "在场时，每次攻击到敌人<$ba.steal>偷取</>其25点攻击力（最高300点）与20点防御力（最高240点），攻击到周围8格的敌人时偷取触发2次",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "“我见，我得”",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "attack@steal_atk",
+                        "value": 25.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_atk_max",
+                        "value": 300.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def",
+                        "value": 20.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def_max",
+                        "value": 240.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  },
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "在场时，每次攻击到敌人<$ba.steal>偷取</>其27<@ba.talpu>（+2）</>点攻击力（最高324<@ba.talpu>（+24）</>点）与21<@ba.talpu>（+1）</>点防御力（最高252<@ba.talpu>（+12）</>点），攻击到周围8格的敌人时偷取触发2次",
+                    "talentIndex": 0,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "“我见，我得”",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "attack@steal_atk",
+                        "value": 27.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_atk_max",
+                        "value": 324.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def",
+                        "value": 21.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "attack@steal_def_max",
+                        "value": 252.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "atk",
+              "value": 45.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 45.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        }
+      ]
+    },
+    "uniequip_003_narant": {
+      "phases": [
+        {
+          "equipLevel": 1,
+          "parts": [
+            {
+              "resKey": "narant_equip_2_1_p1",
+              "target": "TRAIT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "每回收5次<@ba.kw>回旋投射物</>时获得1点技力",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "come_back_cnt",
+                        "value": 5.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sp",
+                        "value": 1.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 210.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 20.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 2,
+          "parts": [
+            {
+              "resKey": "narant_equip_2_2_p1",
+              "target": "TRAIT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "每回收5次<@ba.kw>回旋投射物</>时获得1点技力",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "come_back_cnt",
+                        "value": 5.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sp",
+                        "value": 1.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": null,
+              "target": "TALENT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "获得35%的物理与法术闪避，周围8格内敌人的物理与法术命中率-25%；6秒内未受到伤害时，攻击力+10%",
+                    "talentIndex": 1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2",
+                    "name": "婀娜虚影",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "prob",
+                        "value": 0.35,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_physical",
+                        "value": -0.25,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_magical",
+                        "value": -0.25,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  },
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "获得38%<@ba.talpu>（+3%）</>的物理与法术闪避，周围8格内敌人的物理与法术命中率-25%；6秒内未受到伤害时，攻击力+10%",
+                    "talentIndex": 1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 2,
+                    "prefabKey": "2",
+                    "name": "婀娜虚影",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "prob",
+                        "value": 0.38,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_physical",
+                        "value": -0.25,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_magical",
+                        "value": -0.25,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            },
+            {
+              "resKey": "narant_equip_2_2_p2",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2_1_root",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk",
+                        "value": 0.1,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "interval",
+                        "value": 6.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": true
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 260.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 32.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        },
+        {
+          "equipLevel": 3,
+          "parts": [
+            {
+              "resKey": "narant_equip_2_3_p1",
+              "target": "TRAIT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": null
+              },
+              "overrideTraitDataBundle": {
+                "candidates": [
+                  {
+                    "additionalDescription": "每回收5次<@ba.kw>回旋投射物</>时获得1点技力",
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "blackboard": [
+                      {
+                        "key": "come_back_cnt",
+                        "value": 5.0,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "sp",
+                        "value": 1.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "overrideDescripton": null,
+                    "prefabKey": null,
+                    "rangeId": null
+                  }
+                ]
+              }
+            },
+            {
+              "resKey": null,
+              "target": "TALENT_DATA_ONLY",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "获得35%的物理与法术闪避，周围8格内敌人的物理与法术命中率-30%；6秒内未受到伤害时，攻击力+15%",
+                    "talentIndex": 1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2",
+                    "name": "婀娜虚影",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "prob",
+                        "value": 0.35,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_physical",
+                        "value": -0.3,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_magical",
+                        "value": -0.3,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  },
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "获得38%<@ba.talpu>（+3%）</>的物理与法术闪避，周围8格内敌人的物理与法术命中率-30%；6秒内未受到伤害时，攻击力+15%",
+                    "talentIndex": 1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 2,
+                    "prefabKey": "2",
+                    "name": "婀娜虚影",
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "prob",
+                        "value": 0.38,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_physical",
+                        "value": -0.3,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "damage_hitrate_magical",
+                        "value": -0.3,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": false
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            },
+            {
+              "resKey": "narant_equip_2_3_p2",
+              "target": "TALENT",
+              "isToken": false,
+              "validInGameTag": null,
+              "validInMapTag": null,
+              "addOrOverrideTalentDataBundle": {
+                "candidates": [
+                  {
+                    "displayRangeId": false,
+                    "upgradeDescription": "",
+                    "talentIndex": -1,
+                    "validModeIndices": null,
+                    "unlockCondition": {
+                      "phase": "PHASE_2",
+                      "level": 60
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2_1_root",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": [
+                      {
+                        "key": "atk",
+                        "value": 0.15,
+                        "valueStr": null
+                      },
+                      {
+                        "key": "interval",
+                        "value": 6.0,
+                        "valueStr": null
+                      }
+                    ],
+                    "tokenKey": null,
+                    "isHideTalent": true
+                  }
+                ]
+              },
+              "overrideTraitDataBundle": {
+                "candidates": null
+              }
+            }
+          ],
+          "attributeBlackboard": [
+            {
+              "key": "max_hp",
+              "value": 300.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 40.0,
+              "valueStr": null
+            }
+          ],
+          "tokenAttributeBlackboard": {}
+        }
+      ]
+    }
+  }
+}

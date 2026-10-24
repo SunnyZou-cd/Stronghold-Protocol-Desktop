@@ -1,0 +1,37 @@
+{
+  "band_ws_rhine_milestones": {
+    "bandId": "band_ws_rhine_milestones",
+    "sortId": 46,
+    "name": "白面鸮",
+    "iconId": "char_128_plosis",
+    "modeTypeList": [
+      "SINGLE",
+      "MULTI"
+    ],
+    "totalHp": 25,
+    "effectId": "aceffect_band_ws_rhine_milestones",
+    "effectName": "阶段性成果",
+    "desc": "【阶段性成果】升级调度中心至2、4、6级时，分别获得4、8、12层【莱茵生命】科研。每档每局仅一次，可在盟约尚未激活时积累；不增加装置研究点。\n（同人原创策略）",
+    "descRaw": "【阶段性成果】升级调度中心至2、4、6级时，分别获得4、8、12层【莱茵生命】科研。每档每局仅一次，可在盟约尚未激活时积累；不增加装置研究点。\n（同人原创策略）",
+    "buffs": [],
+    "params": {
+      "bond": "rhineShip",
+      "levels": [
+        2,
+        4,
+        6
+      ],
+      "layers": [
+        4,
+        8,
+        12
+      ]
+    },
+    "victorCount": 3,
+    "rewardModulus": 1,
+    "unlockDesc": null,
+    "bondIds": [
+      "rhineShip"
+    ]
+  }
+}

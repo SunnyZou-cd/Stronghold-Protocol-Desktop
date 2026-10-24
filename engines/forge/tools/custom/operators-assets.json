@@ -1,0 +1,378 @@
+{
+  "char_4217_makoto": {
+    "name": "结城理",
+    "rarity": "TIER_6",
+    "profession": "SPECIAL",
+    "subProfessionId": "dollkeeper",
+    "nationId": "laterano",
+    "chess": [
+      {
+        "chessId": "chess_char_5_makoto_a",
+        "chessLevel": 5,
+        "chessType": "NORMAL",
+        "defaultSkillIndex": 2,
+        "evolvePhase": "PHASE_2"
+      }
+    ],
+    "avatar": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_4217_makoto.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_4217_makoto_2.png"
+      }
+    },
+    "portrait": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_4217_makoto_1.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_4217_makoto_2.png"
+      }
+    },
+    "battleSpine": {
+      "front": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4217_makoto/char_4217_makoto/Front/char_4217_makoto.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4217_makoto/char_4217_makoto/Front/char_4217_makoto.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4217_makoto/char_4217_makoto/Front/char_4217_makoto.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_4217_makoto/char_4217_makoto/Front/char_4217_makoto.skel"
+      },
+      "back": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4217_makoto/char_4217_makoto/Back/char_4217_makoto.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4217_makoto/char_4217_makoto/Back/char_4217_makoto.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4217_makoto/char_4217_makoto/Back/char_4217_makoto.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_4217_makoto/char_4217_makoto/Back/char_4217_makoto.skel"
+      },
+      "note": null
+    },
+    "fullArt": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_4217_makoto_1b.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_4217_makoto_2b.png"
+      }
+    },
+    "skills": [
+      {
+        "index": 0,
+        "skillId": "skchr_makoto_1",
+        "iconId": "skchr_makoto_1",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_makoto_1.png"
+        }
+      },
+      {
+        "index": 1,
+        "skillId": "skchr_makoto_2",
+        "iconId": "skchr_makoto_2",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_makoto_2.png"
+        }
+      },
+      {
+        "index": 2,
+        "skillId": "skchr_makoto_3",
+        "iconId": "skchr_makoto_3",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_makoto_3.png"
+        }
+      }
+    ],
+    "subProfessionIcon": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/ui/subprofessionicon/sub_dollkeeper_icon.png"
+  },
+  "char_1015_aglna2": {
+    "name": "予愿安洁莉娜",
+    "rarity": "TIER_6",
+    "profession": "SPECIAL",
+    "subProfessionId": "skywalker",
+    "nationId": "rhodes",
+    "chess": [
+      {
+        "chessId": "chess_char_6_aglna2_a",
+        "chessLevel": 6,
+        "chessType": "NORMAL",
+        "defaultSkillIndex": 2,
+        "evolvePhase": "PHASE_2"
+      }
+    ],
+    "avatar": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_1015_aglna2.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_1015_aglna2_2.png"
+      }
+    },
+    "portrait": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_1015_aglna2_1.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_1015_aglna2_2.png"
+      }
+    },
+    "battleSpine": {
+      "front": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_1015_aglna2/char_1015_aglna2/Front/char_1015_aglna2.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_1015_aglna2/char_1015_aglna2/Front/char_1015_aglna2.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_1015_aglna2/char_1015_aglna2/Front/char_1015_aglna2.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_1015_aglna2/char_1015_aglna2/Front/char_1015_aglna2.skel"
+      },
+      "back": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_1015_aglna2/char_1015_aglna2/Back/char_1015_aglna2.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_1015_aglna2/char_1015_aglna2/Back/char_1015_aglna2.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_1015_aglna2/char_1015_aglna2/Back/char_1015_aglna2.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_1015_aglna2/char_1015_aglna2/Back/char_1015_aglna2.skel"
+      },
+      "note": null
+    },
+    "fullArt": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_1015_aglna2_1b.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_1015_aglna2_2b.png"
+      }
+    },
+    "skills": [
+      {
+        "index": 0,
+        "skillId": "skchr_aglna2_1",
+        "iconId": "skchr_aglna2_1",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_aglna2_1.png"
+        }
+      },
+      {
+        "index": 1,
+        "skillId": "skchr_aglna2_2",
+        "iconId": "skchr_aglna2_2",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_aglna2_2.png"
+        }
+      },
+      {
+        "index": 2,
+        "skillId": "skchr_aglna2_3",
+        "iconId": "skchr_aglna2_3",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_aglna2_3.png"
+        }
+      }
+    ],
+    "subProfessionIcon": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/ui/subprofessionicon/sub_skywalker_icon.png"
+  },
+  "char_4182_oblvns": {
+    "name": "丰川祥子",
+    "rarity": "TIER_6",
+    "profession": "WARRIOR",
+    "subProfessionId": "lord",
+    "nationId": null,
+    "chess": [
+      {
+        "chessId": "chess_char_6_oblvns_a",
+        "chessLevel": 6,
+        "chessType": "NORMAL",
+        "defaultSkillIndex": 2,
+        "evolvePhase": "PHASE_2"
+      }
+    ],
+    "avatar": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_4182_oblvns.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_4182_oblvns_2.png"
+      }
+    },
+    "portrait": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_4182_oblvns_1.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_4182_oblvns_2.png"
+      }
+    },
+    "battleSpine": {
+      "front": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4182_oblvns/char_4182_oblvns/Front/char_4182_oblvns.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4182_oblvns/char_4182_oblvns/Front/char_4182_oblvns.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4182_oblvns/char_4182_oblvns/Front/char_4182_oblvns.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_4182_oblvns/char_4182_oblvns/Front/char_4182_oblvns.skel"
+      },
+      "back": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4182_oblvns/char_4182_oblvns/Back/char_4182_oblvns.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4182_oblvns/char_4182_oblvns/Back/char_4182_oblvns.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4182_oblvns/char_4182_oblvns/Back/char_4182_oblvns.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_4182_oblvns/char_4182_oblvns/Back/char_4182_oblvns.skel"
+      },
+      "note": null
+    },
+    "fullArt": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_4182_oblvns_1b.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_4182_oblvns_2b.png"
+      }
+    },
+    "skills": [
+      {
+        "index": 0,
+        "skillId": "skchr_oblvns_1",
+        "iconId": "skchr_oblvns_1",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_oblvns_1.png"
+        }
+      },
+      {
+        "index": 1,
+        "skillId": "skchr_oblvns_2",
+        "iconId": "skchr_oblvns_2",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_oblvns_2.png"
+        }
+      },
+      {
+        "index": 2,
+        "skillId": "skchr_oblvns_3",
+        "iconId": "skchr_oblvns_3",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_oblvns_3.png"
+        }
+      }
+    ],
+    "subProfessionIcon": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/ui/subprofessionicon/sub_lord_icon.png"
+  },
+  "char_4138_narant": {
+    "name": "娜仁图亚",
+    "rarity": "TIER_6",
+    "profession": "SNIPER",
+    "subProfessionId": "loopshooter",
+    "nationId": "sargon",
+    "chess": [
+      {
+        "chessId": "chess_char_5_narant_a",
+        "chessLevel": 5,
+        "chessType": "NORMAL",
+        "defaultSkillIndex": 2,
+        "evolvePhase": "PHASE_2"
+      }
+    ],
+    "avatar": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_4138_narant.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/char_4138_narant_2.png"
+      }
+    },
+    "portrait": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_4138_narant_1.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/portrait/char_4138_narant_2.png"
+      }
+    },
+    "battleSpine": {
+      "front": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4138_narant/char_4138_narant/Front/char_4138_narant.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4138_narant/char_4138_narant/Front/char_4138_narant.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4138_narant/char_4138_narant/Front/char_4138_narant.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_4138_narant/char_4138_narant/Front/char_4138_narant.skel"
+      },
+      "back": {
+        "skel": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4138_narant/char_4138_narant/Back/char_4138_narant.skel"
+        },
+        "atlas": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4138_narant/char_4138_narant/Back/char_4138_narant.atlas"
+        },
+        "png": {
+          "url": "https://raw.githubusercontent.com/fexli/ArknightsResource/main/spine/char_4138_narant/char_4138_narant/Back/char_4138_narant.png"
+        },
+        "jsdelivrSkel": "https://cdn.jsdelivr.net/gh/fexli/ArknightsResource@main/spine/char_4138_narant/char_4138_narant/Back/char_4138_narant.skel"
+      },
+      "note": null
+    },
+    "fullArt": {
+      "e0e1": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_4138_narant_1b.png"
+      },
+      "e2": {
+        "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skin/char_4138_narant_2b.png"
+      }
+    },
+    "skills": [
+      {
+        "index": 0,
+        "skillId": "skchr_narant_1",
+        "iconId": "skchr_narant_1",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_narant_1.png"
+        }
+      },
+      {
+        "index": 1,
+        "skillId": "skchr_narant_2",
+        "iconId": "skchr_narant_2",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_narant_2.png"
+        }
+      },
+      {
+        "index": 2,
+        "skillId": "skchr_narant_3",
+        "iconId": "skchr_narant_3",
+        "icon": {
+          "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/skill/skill_icon_skchr_narant_3.png"
+        }
+      }
+    ],
+    "subProfessionIcon": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/cn/assets/dyn/arts/ui/subprofessionicon/sub_loopshooter_icon.png"
+  }
+}

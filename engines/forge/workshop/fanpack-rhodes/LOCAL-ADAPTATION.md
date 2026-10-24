@@ -1,0 +1,1 @@
+Rhodes battle implementation adapted from Forge-Mods demo/fanpack-kazdel-rhodes/server/battle/bonds.mjs, originally by yznx09. Only the competing Kazdel installer is disabled. Data values remain from this pack. Local desktop integration, not an upstream release.

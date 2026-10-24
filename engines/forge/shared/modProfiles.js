@@ -1,0 +1,1 @@
+export const dataProfileId = (enabled, operators = false, recruits = false) => typeof enabled === 'string' && /^(vanilla|rhine)(-extra)?(-custom)?$/.test(enabled) ? enabled : (enabled === false ? 'vanilla' : 'rhine') + (operators ? '-extra' : '') + (recruits ? '-custom' : '');

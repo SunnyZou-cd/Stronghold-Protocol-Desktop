@@ -1,0 +1,29 @@
+{
+  "id": "lele-rhine",
+  "name": "莱茵生命",
+  "version": "0.3.3",
+  "author": "llleeeqi (Lele Mods)",
+  "license": "GPL-3.0-or-later",
+  "description": "莱茵生命扩展，使用本地桌面宿主的原生实现；开局前可单独启用或停用。 本地同人原创策略；数值参考现有策略预算，不属于官方规则。",
+  "combat": true,
+  "content": [
+    "bonds",
+    "bands"
+  ],
+  "overrides": [
+    "bonds:rhineShip"
+  ],
+  "server": {
+    "meta": {
+      "module": "meta/strategies.mjs",
+      "registers": [
+        "band:band_ws_rhine_milestones"
+      ]
+    }
+  },
+  "art": {
+    "bands": {
+      "band_ws_rhine_milestones": "band/band_ws_rhine_milestones.png"
+    }
+  }
+}

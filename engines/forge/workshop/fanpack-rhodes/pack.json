@@ -1,0 +1,99 @@
+{
+  "id": "fanpack-rhodes",
+  "name": "罗德岛盟约（兼容改写 · 标准包）",
+  "version": "1.0.0",
+  "author": "B站@伊佐那邪_",
+  "license": "NOASSERTION",
+  "description": "投稿 0ddd1f4b06e3「罗德岛盟约mod v1.1.0」的内容部分，重打成标准工坊包（zip 根 pack.json）。原作者 B站@伊佐那邪_（https://github.com/yznx09/Stronghold-Protocol-Rhodes-Kazdel-Mod）。原件的 install.mjs 与 payload/** 会整份覆盖引擎文件，本包不采用、绝不执行；本包只走引擎的声明面：content（bonds / items / garrisons / chess / tokens / variants）+ overrides（与官方同 id 的那几条）+ bondIcons / itemIcons。口径数值走 DESIGN §28.51 的 variants.json 通道，逐条与原件一致。 本地同人原创策略；数值参考现有策略预算，不属于官方规则。",
+  "gameVersion": "0.2.6",
+  "combat": true,
+  "content": [
+    "bonds",
+    "items",
+    "garrisons",
+    "chess",
+    "tokens",
+    "variants",
+    "bands"
+  ],
+  "overrides": [
+    "bonds:miraShip",
+    "bonds:preciShip",
+    "bonds:skillfulShip",
+    "bonds:steadShip",
+    "bonds:victoriaShip",
+    "bonds:visiShip",
+    "bonds:yanShip",
+    "chess:chess_char_2_09_a",
+    "chess:chess_char_2_09_b",
+    "chess:chess_char_5_03_a",
+    "chess:chess_char_5_03_b",
+    "chess:chess_char_6_12_a",
+    "chess:chess_char_6_12_b",
+    "garrisons:garrison_35_a",
+    "garrisons:garrison_35_b",
+    "tokens:token_10012_rosmon_shield"
+  ],
+  "itemIcons": {
+    "trap_c_03": "trap_c_03.png",
+    "trap_c_04": "trap_c_04.png"
+  },
+  "bondIcons": {
+    "rhodesShip": "bond_rhodesShip.png"
+  },
+  "variants": [
+    {
+      "axis": "training",
+      "default": "full"
+    }
+  ],
+  "server": {
+    "battle": {
+      "module": "battle/rhodes.mjs"
+    },
+    "meta": {
+      "module": "meta/with-strategies.mjs",
+      "registers": [
+        "garrison:custom_discount_next_buy",
+        "garrison:custom_grant_item_on_acquire",
+        "garrison:custom_grant_item_on_sell",
+        "garrison:custom_gain_layers_prep_end_by_tiers",
+        "garrison:custom_transform_on_sell",
+        "global:customgarrison_discount",
+        "band:band_ws_rhodes_rotation"
+      ]
+    }
+  },
+  "art": {
+    "chars": {
+      "char_193_frostl": {
+        "avatar": "art/char_193_frostl/avatar.png",
+        "avatarE2": "art/char_193_frostl/avatar_2.png",
+        "portrait": "art/char_193_frostl/portrait_1.png",
+        "portraitE2": "art/char_193_frostl/portrait_2.png"
+      },
+      "char_260_durnar": {
+        "avatar": "art/char_260_durnar/avatar.png",
+        "avatarE2": "art/char_260_durnar/avatar_2.png",
+        "portrait": "art/char_260_durnar/portrait_1.png",
+        "portraitE2": "art/char_260_durnar/portrait_2.png"
+      },
+      "char_002_amiya": {
+        "avatar": "art/char_002_amiya/avatar.png",
+        "avatarE2": "art/char_002_amiya/avatar_2.png",
+        "portrait": "art/char_002_amiya/portrait_1.png",
+        "portraitE2": "art/char_002_amiya/portrait_2.png"
+      }
+    },
+    "skills": {
+      "skchr_frostl_1": "art/skill/skchr_frostl_1.png",
+      "skchr_frostl_2": "art/skill/skchr_frostl_2.png",
+      "skchr_durnar_2": "art/skill/skchr_durnar_2.png",
+      "skchr_amiya_2": "art/skill/skchr_amiya_2.png",
+      "skchr_amiya_3": "art/skill/skchr_amiya_3.png"
+    },
+    "bands": {
+      "band_ws_rhodes_rotation": "band/band_ws_rhodes_rotation.png"
+    }
+  }
+}

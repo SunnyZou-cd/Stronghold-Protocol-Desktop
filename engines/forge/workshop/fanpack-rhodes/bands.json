@@ -1,0 +1,28 @@
+{
+  "band_ws_rhodes_rotation": {
+    "bandId": "band_ws_rhodes_rotation",
+    "sortId": 45,
+    "name": "杜宾",
+    "iconId": "char_130_doberm",
+    "modeTypeList": [
+      "SINGLE",
+      "MULTI"
+    ],
+    "totalHp": 24,
+    "effectId": "aceffect_band_ws_rhodes_rotation",
+    "effectName": "舰内轮训",
+    "desc": "【舰内轮训】每回合首次购买【罗德岛】干员时，价格至多为1资金。免费获得、奖励选择和发放干员不消耗此次数。\n（同人原创策略）",
+    "descRaw": "【舰内轮训】每回合首次购买【罗德岛】干员时，价格至多为1资金。免费获得、奖励选择和发放干员不消耗此次数。\n（同人原创策略）",
+    "buffs": [],
+    "params": {
+      "bond": "rhodesShip",
+      "price": 1
+    },
+    "victorCount": 3,
+    "rewardModulus": 1,
+    "unlockDesc": null,
+    "bondIds": [
+      "rhodesShip"
+    ]
+  }
+}

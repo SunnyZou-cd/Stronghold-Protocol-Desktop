@@ -1,0 +1,29 @@
+{
+  "band_ws_dong_invitation": {
+    "bandId": "band_ws_dong_invitation",
+    "sortId": 44,
+    "name": "绮良",
+    "iconId": "char_478_kirara",
+    "modeTypeList": [
+      "SINGLE",
+      "MULTI"
+    ],
+    "totalHp": 26,
+    "effectId": "aceffect_band_ws_dong_invitation",
+    "effectName": "远行邀约",
+    "desc": "【远行邀约】累计主动刷新6次，获得1名不高于当前调度中心等级的随机【东】干员，每回合至多2名。免费次数用于主动刷新时也计数；自然补货和其他效果刷新不计数。\n（同人原创策略）",
+    "descRaw": "【远行邀约】累计主动刷新6次，获得1名不高于当前调度中心等级的随机【东】干员，每回合至多2名。免费次数用于主动刷新时也计数；自然补货和其他效果刷新不计数。\n（同人原创策略）",
+    "buffs": [],
+    "params": {
+      "bond": "dongShip",
+      "refresh_count": 6,
+      "max_count": 2
+    },
+    "victorCount": 3,
+    "rewardModulus": 1,
+    "unlockDesc": null,
+    "bondIds": [
+      "dongShip"
+    ]
+  }
+}

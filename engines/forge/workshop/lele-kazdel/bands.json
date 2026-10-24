@@ -1,0 +1,28 @@
+{
+  "band_ws_kazdel_souls": {
+    "bandId": "band_ws_kazdel_souls",
+    "sortId": 47,
+    "name": "赫德雷",
+    "iconId": "char_4088_hodrer",
+    "modeTypeList": [
+      "SINGLE",
+      "MULTI"
+    ],
+    "totalHp": 26,
+    "effectId": "aceffect_band_ws_kazdel_souls",
+    "effectName": "众魂归处",
+    "desc": "【众魂归处】每回合首次通过合并使【卡兹戴尔】干员晋升精锐时，获得6层【卡兹戴尔】众魂。可在盟约尚未激活时积累；直接获得精锐或装备晋升不触发。\n（同人原创策略）",
+    "descRaw": "【众魂归处】每回合首次通过合并使【卡兹戴尔】干员晋升精锐时，获得6层【卡兹戴尔】众魂。可在盟约尚未激活时积累；直接获得精锐或装备晋升不触发。\n（同人原创策略）",
+    "buffs": [],
+    "params": {
+      "bond": "kazdelShip",
+      "layers": 6
+    },
+    "victorCount": 3,
+    "rewardModulus": 1,
+    "unlockDesc": null,
+    "bondIds": [
+      "kazdelShip"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { makeBattle, chessRec, enemyRec, checkInvariants } from '../helpers/battleHarness.js';
+import { loadData } from '../../server/data.js';
+import { setSimData } from '../../server/sim/simdata.js';
+import { setGameData } from '../../server/sim/content/support/index.js';
+import { fileURLToPath } from 'node:url';
+import { unitInfo, unitTuple } from '../../server/sim/snapshot.js';
+import { RHINE_BALANCE as B } from '../../shared/rhineResearch.js';
+
+const RHINE_DATA=loadData(fileURLToPath(new URL('../../data/rhine-extra',import.meta.url)));
+setSimData(RHINE_DATA);setGameData(RHINE_DATA);
+
+function setup(key, stage) {
+  const tokenId = `token_rhine_${key}`;
+  const actors = [['a',10,4],['b',11,5],['c',9,5]];
+  const units = actors.map(([uid,row,col]) => ({uid,chessId:`${uid}_a`,row,col}));
+  units.push({uid:'device',kind:'token',tokenId,row:10,col:5});
+  const chess = Object.fromEntries(actors.map(([uid]) => [`${uid}_a`, chessRec({id:`${uid}_a`,stats:{maxHp:2000,atk:100,blockCnt:0},skill:{}})]));
+  const kits = Object.fromEntries(actors.map(([uid]) => [`${uid}_a`, () => ({trait:{noAttack:true},skill:{kind:'instant',trigger:{rule:'NEVER'}}})]));
+  const h = makeBattle({autoFinish:false,kits,defs:{chess,tokens:RHINE_DATA.tokens,enemies:{dummy:enemyRec({key:'dummy',hp:100000,speed:0})}},
+    players:[{playerId:'p1',seat:0,side:'L',colOffset:0,units,bonds:{rhineShip:{active:true,count:3,layers:0}},
+      research:{active:true,devices:[{uid:'device',key,tokenId,onBoard:true,stage}]}}]});
+  h.step();return h;
+}
+const fx = (h,kind) => h.eventsOf('fx').filter(e=>e[1]===kind);
+const done = h => {assert.deepEqual(h.b.errors,[]);checkInvariants(h.b);};
+
+test('Rhine healing FX: one event per effective target, even when the heal also creates a shield',()=>{
+  const h=setup('medical',2), d=h.unit('device');
+  const before=fx(h,'rhineHeal').length;
+  for(const id of ['a','b'])h.unit(id).hp=h.unit(id).s.maxHp-1;
+  h.run(B.medicalInterval);
+  const events=fx(h,'rhineHeal').slice(before), ids=['a','b','c'];assert.equal(events.length,ids.length);
+  assert.equal(new Set(events.map(e=>e[4].target)).size,events.length);
+  for(const id of ids){
+    const target=h.unit(id), event=events.find(e=>e[4].target===target.id);
+    assert.deepEqual(event,['fx','rhineHeal',target.x,target.y,{source:d.id,target:target.id,stage:2}]);
+    if(id!=='c')assert.equal(target.hp,target.s.maxHp);
+    assert.ok(target.s.shield>0);
+  }
+  done(h);
+});
+
+test('Rhine healing FX: healing-only and shield-only emit; full-health stage zero and cancelled heals stay silent',()=>{
+  const healed=setup('medical',0), healedBefore=fx(healed,'rhineHeal').length;healed.unit('a').hp=100;healed.run(B.medicalInterval);
+  const healedEvents=fx(healed,'rhineHeal').slice(healedBefore);assert.equal(healedEvents.length,1);assert.equal(healedEvents[0][4].stage,0);done(healed);
+  const shielded=setup('medical',1), shieldBefore=fx(shielded,'rhineHeal').length;shielded.run(B.medicalInterval);
+  const shieldEvents=fx(shielded,'rhineHeal').slice(shieldBefore);
+  assert.ok(shieldEvents.length>0);assert.equal(new Set(shieldEvents.map(e=>e[4].target)).size,shieldEvents.length);
+  assert.ok(shieldEvents.every(e=>shielded.b.units.find(u=>u.id===e[4].target)?.s.shield>0));done(shielded);
+  const full=setup('medical',0), fullBefore=fx(full,'rhineHeal').length;full.run(B.medicalInterval);
+  assert.equal(fx(full,'rhineHeal').length-fullBefore,0);done(full);
+  const cancelled=setup('medical',1);cancelled.b.on('heal',ctx=>{ctx.amount=0;});const cancelledBefore=fx(cancelled,'rhineHeal').length;cancelled.run(B.medicalInterval);
+  assert.equal(fx(cancelled,'rhineHeal').length-cancelledBefore,0);assert.equal(cancelled.unit('a').s.shield,0);done(cancelled);
+});
+
+test('Rhine visual metadata: all three spawn stages serialize and pulse/ecology name the source device',()=>{
+  for(const stage of [0,1,2]){
+    const energy=setup('energy',stage), d=energy.unit('device');energy.spawn('dummy',{pos:[10,6]});
+    for(const uid of ['a','b','c'])assert.equal(energy.unit(uid).skill.activate('test',{free:true}),true);
+    assert.equal(fx(energy,'rhinePulse').length,1);
+    const target=energy.b.enemies[0];
+    assert.deepEqual(fx(energy,'rhinePulse')[0][4],{fromX:d.x,fromY:d.y,source:d.id,target:target.id,stage});
+    assert.equal(unitInfo(d).researchStage,stage);
+    assert.equal(energy.eventsOf('spawn').find(e=>e[1].id===d.id)[1].researchStage,stage);
+    assert.equal('researchStage' in JSON.parse(JSON.stringify(unitInfo(energy.unit('a')))),false);
+    const ecology=setup('medical',stage);ecology.run(B.ecologyInterval);
+    assert.equal(fx(ecology,'rhineEcology').length,2);
+    for(const [i,event] of fx(ecology,'rhineEcology').entries()){
+      assert.deepEqual(event[4],{source:ecology.unit('device').id,stage,active:true,radius:B.radius+(stage>=2?1:0),
+        continuous:true,duration:B.ecologyInterval,bind:i>0&&stage>=2});
+    }
+    done(energy);done(ecology);
+  }
+});
+
+test('ecology active state keeps its stage for reconnects and emits one stop/restart without an immediate bind',()=>{
+  const h=setup('medical',2), d=h.unit('device'), bond=h.b.getPlayer('p1').bonds.rhineShip;
+  const target=h.spawn('dummy',{pos:[10,7]});h.step();
+  assert.equal(unitInfo(d).researchActive,true);assert.equal(unitInfo(d).researchStage,2);
+  assert.equal(target.findBuff('slow').mods.moveMul,0.5);
+  bond.active=false;h.step(4);
+  assert.equal(unitInfo(d).researchActive,false);assert.equal(unitInfo(d).researchStage,2);
+  assert.equal(target.findBuff('slow'),null);
+  assert.deepEqual(fx(h,'rhineEcology').map(e=>[e[4].active,e[4].bind]),[[true,false],[false,false]]);
+  h.step(4);assert.equal(fx(h,'rhineEcology').length,2,'disabled ticks do not repeat stop events');
+  bond.active=true;h.step();
+  assert.equal(unitInfo(d).researchActive,true);assert.equal(unitInfo(d).researchStage,2);
+  assert.equal(target.findBuff('slow').mods.moveMul,0.5);assert.equal(!!target.s.flags.bind,false);
+  assert.deepEqual(fx(h,'rhineEcology').map(e=>[e[4].active,e[4].bind]),[[true,false],[false,false],[true,false]]);
+  bond.count=2;h.step();assert.equal(unitInfo(d).researchActive,false);
+  bond.count=3;h.step();assert.equal(unitInfo(d).researchActive,true);
+  assert.deepEqual(fx(h,'rhineEcology').slice(-2).map(e=>e[4].active),[false,true]);
+  assert.equal('researchActive' in JSON.parse(JSON.stringify(unitInfo(h.unit('a')))),false);
+  h.b.retreat(d,{permanent:true});assert.equal(unitInfo(d).researchActive,false);
+  assert.equal(fx(h,'rhineEcology').at(-1)[4].active,false);
+  done(h);
+});
+
+test('energy full charge remains visible to snapshots and late joins until a target triggers one pulse',()=>{
+  const h=setup('energy',1), d=h.unit('device');
+  for(const uid of ['a','b','c'])assert.equal(h.unit(uid).skill.activate('test',{free:true}),true);
+  h.run(B.energyContributorCooldown+0.1);
+  assert.deepEqual(unitTuple(d,h.b.time).slice(5,7),[B.energyCharges,B.energyCharges]);
+  assert.deepEqual([unitInfo(d).sp,unitInfo(d).spMax],[B.energyCharges,B.energyCharges]);
+  assert.equal(fx(h,'rhinePulse').length,0);
+  h.spawn('dummy',{pos:[10,6]});h.step();
+  assert.equal(fx(h,'rhinePulse').length,1);
+  assert.deepEqual(unitTuple(d,h.b.time).slice(5,7),[0,B.energyCharges]);
+  h.step(5);assert.equal(fx(h,'rhinePulse').length,1);
+  done(h);
+});
+
+test('energy charging serializes the actual progress for spawn, live snapshots and late joins, then resets after a pulse',()=>{
+  const h=setup('energy',0), d=h.unit('device');
+  assert.deepEqual([unitInfo(d).sp,unitInfo(d).spMax],[0,B.energyCharges]);
+  assert.deepEqual(h.eventsOf('spawn').find(e=>e[1].id===d.id)[1].spMax,B.energyCharges);
+  h.spawn('dummy',{pos:[10,6]});
+  for(const [i,uid] of ['a','b'].entries()){
+    assert.equal(h.unit(uid).skill.activate('test',{free:true}),true);
+    assert.deepEqual(unitTuple(d,h.b.time).slice(5,7),[i+1,B.energyCharges]);
+    assert.deepEqual([unitInfo(d).sp,unitInfo(d).spMax],[i+1,B.energyCharges]);
+  }
+  assert.equal(h.unit('c').skill.activate('test',{free:true}),true);
+  assert.deepEqual(unitTuple(d,h.b.time).slice(5,7),[0,B.energyCharges]);
+  assert.equal(fx(h,'rhinePulse').length,1);
+  h.run(B.energyContributorCooldown+0.1);h.unit('a').skill.activate('test',{free:true});
+  assert.equal(unitInfo(d).sp,1);
+  h.b.getPlayer('p1').bonds.rhineShip.active=false;h.step();
+  assert.deepEqual(unitTuple(d,h.b.time).slice(5,7),[0,B.energyCharges]);
+  assert.equal('spMax' in JSON.parse(JSON.stringify(unitInfo(h.unit('a')))),false);
+  done(h);
+});

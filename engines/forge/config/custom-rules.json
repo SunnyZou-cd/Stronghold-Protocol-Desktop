@@ -1,0 +1,21 @@
+{
+  "rewardOffer": {
+    "enabled": true,
+    "slots": [
+      {
+        "kind": "mainCount",
+        "minCount": 3,
+        "mode": "weight",
+        "mult": 2.6
+      }
+    ]
+  },
+  "itemOffer": {
+    "enabled": true,
+    "mode": "weight",
+    "mult": 2.6,
+    "minCount": 3,
+    "minRound": 6,
+    "onTierMiss": "random"
+  }
+}

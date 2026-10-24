@@ -1,0 +1,21 @@
+/* Shared by both mode screens and the waiting-room editor. */
+.mod-picker { display: flex; flex-direction: column; gap: 8px; padding: 10px 12px; border: 1px solid var(--line); background: var(--bg-panel, #101b18); font-size: 13px; }
+.mod-picker__head { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.mod-picker__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.mod-picker__actions button { min-height: 32px; padding: 4px 10px; color: var(--mint-500); background: transparent; border: 1px solid var(--line); cursor: pointer; font: inherit; }
+.mod-picker__list, .room-mods__pick .room-mods__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin: 0; padding: 0; list-style: none; width: 100%; }
+.mod-picker__list li, .room-mods__pick .room-mods__list li { min-width: 0; display: flex; }
+.mod-chip { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; min-height: 44px; padding: 8px 10px; color: var(--text-hi); border: 1px solid var(--line); background: transparent; cursor: pointer; text-align: left; font: inherit; }
+.mod-chip.is-on { border-color: var(--mint-500); background: rgba(52, 208, 167, .12); }
+.mod-chip__id { overflow-wrap: anywhere; }
+.mod-chip__state { flex: none; color: var(--text-lo); font-size: 12px; }
+.mod-chip.is-on .mod-chip__state { color: var(--mint-500); }
+.mod-picker__note { color: var(--text-lo); font-size: 12px; line-height: 1.4; }
+.mod-chip:focus-visible, .mod-picker__actions button:focus-visible { outline: 2px solid var(--mint-500); outline-offset: 2px; }
+.mod-chip:hover, .mod-picker__actions button:hover { border-color: var(--mint-500); }
+.room-mods__edit, .room-mods__pick { width: 100%; }
+.room-mods__pick { display: flex; flex-direction: column; gap: 8px; }
+.room-mods__apply { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+@media (max-height: 700px) { .mod-picker { gap: 5px; padding: 6px 8px; } .mod-chip { min-height: 36px; padding: 5px 8px; } }
+
+@media (max-width: 1100px) { .mod-chip { flex-direction: column; align-items: flex-start; gap: 2px; } }

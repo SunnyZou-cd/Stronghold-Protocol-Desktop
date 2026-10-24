@@ -1,0 +1,21 @@
+{
+  "lock": 1,
+  "id": "lele-operators",
+  "version": "0.3.3",
+  "generator": "tools/plugin.mjs pack",
+  "files": {
+    "README.md": {
+      "sha256": "aeaad1774c2853b441595eb22013c6694ffa95ed9ff1198d59b006dc04ab412e",
+      "bytes": 741
+    },
+    "data/feature.json": {
+      "sha256": "8380e015068e0cc9c4a5002f03d57f3478cae59a6e72088bc92733d478037fd4",
+      "bytes": 199791
+    },
+    "plugin.json": {
+      "sha256": "7bc738b3bef4e659c69f4992f0807c9afc75e91359079971658777654b3d8a2a",
+      "bytes": 746
+    }
+  },
+  "spine": {}
+}

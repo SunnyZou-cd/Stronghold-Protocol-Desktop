@@ -1,0 +1,1 @@
+Local selectable wrapper for the verified Lele 0.3.3 faction implementation. Requires this desktop host. Payload is generated in shared/desktopFactionData.js and participates in the host content identity. Native callback implementations are unchanged.
