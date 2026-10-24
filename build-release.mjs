@@ -33,7 +33,8 @@ function copyTree(from, to, rel = '', engineTree = false) {
     if (omitArt && engineTree && /^data\/local-(?:assets|fx)\.json$/.test(r)) continue;
     if (engineTree && (/^(?:test\/e2e\/out|public\/dev\/simcheck\/data)(?:\/|$)/.test(r) || /^(?:build|dist)(?:\/|$)/.test(r))) continue;
     // Includes workshop art and screenshots, plus the upstream official-derived faction logo.
-    if (omitArt && engineTree && (/^(?:public\/(?:assets|fonts|art)|docs\/img)(?:\/|$)/.test(r) || /(?:^|\/)assets(?:\/|$)/.test(r) || /\.(?:png|jpe?g|webp|gif|avif|ico|skel|atlas|ogg|mp3|wav|mp4|webm|glb|gltf|fbx|ttf|otf|woff2?)$/i.test(r))) continue;
+    // tools/assets and @pixi/assets contain runtime SOURCE, not game artwork.
+    if (omitArt && engineTree && (/^(?:public\/(?:assets|fonts|art)|docs\/img|workshop\/[^/]+\/assets)(?:\/|$)/.test(r) || /\.(?:png|jpe?g|webp|gif|avif|ico|skel|atlas|ogg|mp3|wav|mp4|webm|glb|gltf|fbx|ttf|otf|woff2?)$/i.test(r))) continue;
     const src = path.join(from, item.name), target = path.join(to, item.name);
     if (item.isDirectory()) { fs.mkdirSync(target, { recursive: true }); copyTree(src, target, r, engineTree); }
     else if (item.isFile()) { fs.mkdirSync(to, { recursive: true }); fs.copyFileSync(src, target); files++; bytes += fs.statSync(src).size; }

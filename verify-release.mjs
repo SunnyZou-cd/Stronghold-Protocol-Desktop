@@ -21,6 +21,7 @@ try {
   check('portable relative game root',!path.isAbsolute(config.gameRoot));
   check('portable wrapper resolves relative path',fs.readFileSync(path.join(root,'main.cjs'),'utf8').includes('path.resolve(base, config.gameRoot)'));
   check('license notices present',['LICENSE','NOTICE.md','THIRD-PARTY-NOTICES.md'].every(n=>fs.existsSync(path.join(root,n))));
+  check('runtime asset source helpers are retained',fs.existsSync(path.join(root,'engines/forge/tools/assets/skel.mjs')));
   if(manifest.mode==='full') {
     const assets=new Set();
     const walk=v=>{if(typeof v==='string'&&v.startsWith('/assets/'))assets.add(v);else if(v&&typeof v==='object')Object.values(v).forEach(walk);};
